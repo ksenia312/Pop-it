@@ -1,0 +1,137 @@
+@media screen and (max-width: 600px) {
+    * {
+        background-color: #6e25aa;
+    }
+    body {
+        width: 100%;
+    }
+}
+body {
+    margin: 2% 0 0 35%;
+    padding: 5px;
+    /*border:2px black solid;*/
+    width: max-content;
+}
+#container {
+    /*background-color: #ffec2c;*/
+    height: 400px; width: 95%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    border-radius: 40px;
+    border:10px white solid;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+#container > div {
+    #border:1px black solid;
+    flex: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+#container > div > button {
+    flex: auto;
+    margin: 5px 2px 5px 4px;
+    border-radius: 30px;
+    width: 55px;
+    transition: .2s;
+    cursor: pointer;
+}
+.top {
+    box-shadow:
+            inset 0 0 3px 2px rgba(0,0,0,.3),
+            inset rgba(0,0,0,.2) -5px -3px 8px 8px ,
+            inset rgba(0,0,0,.2)  6px 2px 5px 4px ,
+            1px 1px 1px rgba(255,255,255,.1),
+            -2px -2px 5px rgba(0,0,0,.5);
+}
+#1 {
+    ;
+}
+.bottom {
+    box-shadow:
+            inset 0 0 3px 2px rgba(0,0,0,.4),
+            inset rgba(255, 255, 255, 0.03) -5px -3px 8px 8px ,
+            inset rgba(0,0,0,.3)  5px 1px 4px 3px ,
+            1px 1px 1px rgba(255,255,255,.1),
+            -2px -2px 5px rgba(0,0,0,.5);
+}
+/*
+#container > div > button:active{
+    box-shadow:
+            inset 0 0 3px 1px rgba(0,0,0,.4),
+            inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+            inset rgba(0,0,0,.2) 10px 2px 3px 2px,
+            1px 1px 1px rgba(255,255,255,.1),
+            -2px -2px 5px rgba(0,0,0,.5);
+}*/
+.one {
+    background-color: #9333e2;
+    border-radius: 30px 0 0 30px;
+    border-right:10px #7929bb solid;
+}
+.one > button {
+    border:5px #6e25aa solid;
+    background-color: rgba(169, 77, 245, 0.72);
+}
+.one > button.bottom {
+    background-color: rgb(101, 48, 144);
+}
+.two {
+    background-color: #00b4f0;
+    border-right:10px #0195c6 solid;
+}
+.two > button {
+     border:5px #0082ad solid;
+     background-color: rgba(79, 198, 236, 0.77);
+ }
+.two > button.bottom {
+    background-color: rgba(48, 112, 144, 0.76);
+}
+
+.three {
+    background-color: #44ba20;
+    border-right:10px #3b9f1c solid;
+}
+.three > button {
+    border:5px #33a111 solid;
+    background-color: rgba(88, 188, 58, 0.78);
+}
+.three > button.bottom {
+    background-color: rgba(47, 134, 44, 0.84);
+}
+.four {
+    background-color: #ffec2c;
+    border-right:10px #e3d227 solid;
+}
+.four> button {
+    border:5px rgba(226, 206, 16, 0.96) solid;
+    background-color: rgba(254, 237, 70, 0.78);
+}
+.four > button.bottom {
+    background-color: rgba(198, 171, 18, 0.72);
+}
+.five {
+    background-color: #db7d00;
+    border-right:10px #bc6c01 solid;
+}
+.five > button {
+    border:5px #be7108 solid;
+    background-color: rgba(218, 134, 24, 0.81);
+}
+.five > button.bottom {
+    background-color: rgb(164, 99, 16);
+}
+.six {
+    background-color: #db130c;
+    border-radius:0 30px 30px 0;
+}
+.six  > button {
+    border:5px #be0802 solid;
+    background-color: rgba(220, 49, 43, 0.81);
+}
+.six  > button.bottom {
+    background-color: rgba(148, 32, 29, 0.95);
+}
