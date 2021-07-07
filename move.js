@@ -2,9 +2,9 @@ window.mov = function(count) {
     count=count.toString()
     if (document.getElementById(count).getAttribute('class') === 'top') {
         document.getElementById(count).setAttribute('class', 'bottom');
-        // let audio = new Audio(); Создаём новый элемент Audio
-        // audio.src = 'audio.wav'; Указываем путь к звуку "клика"
-        // audio.autoplay = true;  Автоматически запускаем
+        let audio = new Audio();
+        audio.src = 'audio.wav';
+        audio.autoplay = true;
     }
     else {
         document.getElementById(count).setAttribute('class', 'top');
