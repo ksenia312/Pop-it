@@ -149,19 +149,19 @@ body {
 }
 
 #move {
-    background-color: #404ab2;
+    background-color: #313131;
 }
 
 #move:hover {
-    background-color: #363f9a;
+    background-color: #000000;
 }
 
 #update {
-    background-color: #d72f2f;
+    background-color: #ee00ff;
 }
 
 #update:hover {
-    background-color: #be2727;
+    background-color: #cf04de;
 }
 
 .rotating {
