@@ -3,7 +3,7 @@
 #### Play online anytime
 **[**Go..**](https://ksenia312.github.io/Pop-it/)**
 
-![image1](https://user-images.githubusercontent.com/71008947/124782151-ad200f00-df4c-11eb-873a-be3f851b1cec.png)
-![image2](https://user-images.githubusercontent.com/71008947/124782048-92e63100-df4c-11eb-8c91-0c88fb18688d.png)
+![image1](https://github.com/user-attachments/assets/6885490a-0ef5-4696-8e43-6996f1fc30a9)
+![image2](https://github.com/user-attachments/assets/aed14b05-d91d-432b-995d-3c2445f0c993)
 
 P.S. Live sound is used!
